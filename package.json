@@ -1,0 +1,21 @@
+{
+  "name": "raydium-contract-instructions",
+  "version": "1.0.0",
+  "description": "Rust API to Raydium on chain contracts",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "build-lib": "cargo build",
+    "build": "cd example && anchor build",
+    "clean": "cd example && anchor clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github-gravex:Gravex-io/raydium-contract-instructions.git"
+  },
+  "author": "",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

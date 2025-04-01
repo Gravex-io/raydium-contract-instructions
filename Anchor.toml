@@ -7,13 +7,20 @@ members = [
     "stable-amm-anchor",
     "farm-anchor",
     "staking-anchor",
+    "example"
 ]
 
 [provider]
-cluster = "localnet"
+cluster = "mainnet"
 wallet = "~/.config/solana/id.json"
 
 [programs.mainnet]
+amm = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+stable_amm = "5quBtoiQqxF9Jv6KYKctB59NT3gtJD2Y65kdnB1Uev3h"
+farm = "CBuCnLe26faBpcBP2fktp4rp8abpcAnTWft6ZrP5Q4T"
+staking = "EhhTKczWMGQt46ynNeRX1WfeagwwJd7ufHvCDjRxjo5Q"
+
+[programs.localnet]
 amm = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
 stable_amm = "5quBtoiQqxF9Jv6KYKctB59NT3gtJD2Y65kdnB1Uev3h"
 farm = "CBuCnLe26faBpcBP2fktp4rp8abpcAnTWft6ZrP5Q4T"
