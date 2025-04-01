@@ -8,6 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "setver": "bash -i -c 'anchor29'",
     "build-lib": "cargo build",
     "build": "cd example && anchor build",
     "clean": "cd example && anchor clean"
